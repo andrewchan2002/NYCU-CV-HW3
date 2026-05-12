@@ -1,0 +1,51 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{he2017mask}
+\citation{he2016deep}
+\citation{lin2017feature}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Method}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data Preprocessing}{1}{subsection.2.1}\protected@file@percent }
+\citation{loshchilov2019decoupled}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Data Augmentation}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Model Architecture}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Backbone.}{2}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Neck — FPN.}{2}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Region Proposal Network (RPN).}{2}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Box Head.}{2}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Mask Head.}{2}{section*.5}\protected@file@percent }
+\citation{smith2019super}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Training Configuration}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Optimizer.}{3}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scheduler.}{3}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Mixed-Precision Training (AMP).}{3}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Other Settings.}{3}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Inference — Test-Time Augmentation}{3}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Training Curves}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Left: train and validation loss over 50 epochs. Right: validation AP50 evaluated every 5 epochs. The best checkpoint (val AP50 = 0.5937, public AP50 = 0.5596) is saved at epoch 37.}}{4}{figure.caption.10}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:training_curves}{{1}{4}{Left: train and validation loss over 50 epochs. Right: validation AP50 evaluated every 5 epochs. The best checkpoint (val AP50 = 0.5937, public AP50 = 0.5596) is saved at epoch 37}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Quantitative Results}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces AP50 results on CodaBench test set (public leaderboard).}}{4}{table.caption.11}\protected@file@percent }
+\newlabel{tab:results}{{1}{4}{AP50 results on CodaBench test set (public leaderboard)}{table.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Additional Experiments: Backbone Depth Ablation}{5}{section.4}\protected@file@percent }
+\newlabel{sec:additional}{{4}{5}{Additional Experiments: Backbone Depth Ablation}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Hypothesis}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Experimental Setup}{5}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Results and Discussion}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Backbone comparison across three metrics: AP50 (left), trainable parameter count (centre), and GPU inference speed (right). All models remain within the 200M parameter limit.}}{5}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:backbone_comparison}{{2}{5}{Backbone comparison across three metrics: AP50 (left), trainable parameter count (centre), and GPU inference speed (right). All models remain within the 200M parameter limit}{figure.caption.12}{}}
+\bibcite{he2017mask}{1}
+\bibcite{he2016deep}{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Validation AP50 vs.\ epoch for all three backbone variants (50 epochs). All curves peak between epoch 30--38 then decline slightly. Deeper backbones converge to a higher AP50 ceiling.}}{6}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:backbone_ap50_curve}{{3}{6}{Validation AP50 vs.\ epoch for all three backbone variants (50 epochs). All curves peak between epoch 30--38 then decline slightly. Deeper backbones converge to a higher AP50 ceiling}{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {paragraph}{Implications.}{6}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}References}{6}{section.5}\protected@file@percent }
+\bibcite{lin2017feature}{3}
+\bibcite{loshchilov2019decoupled}{4}
+\bibcite{smith2019super}{5}
+\bibcite{lin2014coco}{6}
+\gdef \@abspage@last{7}
