@@ -71,7 +71,7 @@ python evaluate.py --checkpoint checkpoints/best_model.pth --tta
 ### Inference (generate submission file)
 
 ```bash
-python inference.py --checkpoint checkpoints/best_model.pth --score-thresh 0.5
+python inference.py --checkpoint checkpoints/best_model.pth --score-thresh 0.01
 ```
 
 Output: `test-results.json` → zip and upload to CodaBench.
@@ -86,7 +86,7 @@ Output: `test-results.json` → zip and upload to CodaBench.
 | Mask R-CNN | ResNet-101 + FPN | — | 0.5234 |
 | **Mask R-CNN** | **ResNet-152 + FPN** | **0.5937** | **0.5596** |
 
-Best checkpoint: **epoch 35**, public leaderboard AP50 = **0.5596**
+Best checkpoint: **epoch 37**, public leaderboard AP50 = **0.5596**
 
 > Screenshot: see `leaderboard_snapshot.png` in the repository.
 
@@ -109,7 +109,7 @@ HW3/
 
 ## GitHub
 
-[https://github.com/andrewchan2002/NYCU-VR-HW3](https://github.com/andrewchan2002/NYCU-VR-HW3)
+[https://github.com/andrewchan2002/NYCU-CV-HW3](https://github.com/andrewchan2002/NYCU-CV-HW3)
 
 ## Conda Bench Result
 ![Conda Bench Result](image.png)
